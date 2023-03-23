@@ -12,3 +12,9 @@ Infraestrutura:
 - Criar o script de execução
 - Testar a Execução
 - Snowflake Data Warehouse:
+
+    - Criar a conta no SnowFlake
+    - Verificar a existência das tabelas
+    - Obter os links de conexão e nome da conta
+
+Extração:
