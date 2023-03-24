@@ -18,3 +18,20 @@ Infraestrutura:
     - Obter os links de conexão e nome da conta
 
 Extração:
+
+- No Airbyte
+    
+    - Conectar com as origens baseadas nos Csvs
+    - Criar as entidades no snowflake através do script base da documentação
+    - Conectar o destino no snowflake
+    - Criar as conexões do airbyte associando as origens ao destino
+    - Testar as conexões
+
+Preparação:
+
+- No Airbyte(Destination Loading Method):
+    
+    - Local Staging (Ambiente de Desenvolvimento)
+    - Cloud Staging (Ambiente de Produção)
+
+Transformação:
