@@ -38,7 +38,7 @@ with DAG(dag_id='trigger_airbyte_dbt_job',
         airbyte_conn_id='airbyte_example',
         connection_id=airbyte_epidemiology_connection_id,
         asynchronous=False,
-        timeout=3600,
+        timeout=7200,
         wait_seconds=3
     )
 
